@@ -24,8 +24,10 @@ class Trojkaty {
 	 if (a == b || b == c || a == c) {
 	 System.out.println("Trójkąt równoramienny");
 	 }
-
-         // TODO: tutaj trzeba bedzie dopisac inne przypadki
+         if (czyProstokatny(a, b, c)) {
+         System.out.println("Trójkąt prostokątny");
+                  }
+      
     }
     /** Wyświetla ekran pomocy */
     public static void pomoc(){
